@@ -1,0 +1,223 @@
+body {
+    font-family: 'Spectral', serif;
+    text-align: center;
+    width: 50em;
+    margin: auto;
+    background-color: dimgray;
+}
+
+main {
+    background-image: url(https:/www.transparenttextures.com/patterns/asfalt-dark.png);
+    background-color: white;
+    display: grid;
+    grid-template-columns: 10% 20% auto 20% 10%;
+    grid-template-rows: 4em 3.5em 1em 6em;
+    padding: 10px;
+    border: solid 1.5em;
+    border-style: double;
+}
+
+div {
+    padding: 1em;
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #383737;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #999;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #777;
+}
+
+
+.topSerial {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+
+#x25 {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#x25Box {
+    border: solid 0.1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+#x1 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+#topRightX {
+    text-align: left;
+    line-height: 0.1em;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 3;
+}
+
+.bottomRightX {
+    text-align: right;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 9;
+    grid-row-end: 10;
+}
+
+.x50Box {
+    border: solid 0.1em;
+}
+
+.bullTitle {
+    color: white;
+    font-size: 2em;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+a {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    /* ...and now for the proper property */
+    transition: .5s;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkgray;
+}
+
+.bullTitle a {
+    color: white;
+    text-decoration: none;
+}
+
+.bullTitle a:hover {
+    color: darkgray;
+}
+
+.bullTitle h1 {
+    background-color: black;
+}
+
+.logo {
+    margin: auto;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    width: 11em;
+}
+
+.bottomGroup {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 11;
+    grid-row-end: 13;
+    font-size: 0.9em;
+}
+
+.bottomRightX2 {
+    grid-column-start: 5;
+    grid-column-end: 6;
+    grid-row-start: 10;
+    grid-row-end: 11;
+}
+
+.bottomSerial {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 13;
+    grid-row-end: 14;
+}
+
+.nextPage {
+    text-align: center;
+    grid-column-start: 5;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
+
+.lastPage {
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
+
+.bullHead {
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.mainText {
+    text-align: left;
+    grid-column-start: 2;
+    grid-column-end: 5;
+    line-height: 1em;
+}
+
+.mainText h3 {
+    text-decoration: underline;
+}
+
+.profDesc {
+    padding: 1em;
+    text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.profPic {
+    padding: 1em;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 5;
+    grid-row-end: 11;
+}
+
+.profPic img {
+    width: 100%;
+}
+
+.profInfo {
+    line-height: 1em;
+    border: solid 0.1em;
+    padding: 1em;
+    text-align: right;
+    grid-column-start: 4;
+    grid-column-end: 6;
+    grid-row-start: 5;
+}
+
+.profInfo h4 {}

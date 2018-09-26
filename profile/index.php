@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <title>TIB | POI PROFILES</title>
+    <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head.html"); ?>
+</head>
+
+<body>
+    <main>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/includes/maintop.html"); ?>
+        <section class="bullHead">
+            <h1>POI PROFILES (1/2)</h1>
+        </section>
+        <section class="mainText">
+            <dt>
+                <a href="/profile/tristan/">
+                    <h3>Tristan Andersen - P3</h3>
+                    <h4>Web and server developer living in Northern Europe.<br>Recently accused of stealing a plugin from a community game server. </h4>
+                </a>
+            </dt>
+            <dt>
+                <a href="/profile/nikky/">
+                    <h3>Nikky {UNKOWN} - P4</h3>
+                    <h4>Web and server developer living in the North-Europe.<br>Recently accused of stealing a plugin from a community game server. </h4>
+                </a>
+            </dt>
+            <dt>
+                <a href="/profile/">
+                    <h3>SnoWDooM - P5</h3>
+                    <h4>A letter left by a "SnoWDooM" in the security break room read:<br><br><em>"You see me, you don't see me, you see me, you don't see me, you will not see me because I went in your fridge cracking a cold one."</em><br><br>Staff of the security group were questioned and all found innocent.</h4>
+                </a>
+            </dt>
+            <dt>
+                <a href="/profile/">
+                    <h3>RaizyCas - P6</h3>
+                    <h4>Research found that "RaizyCas" had been spending an abnormal amount of money on <em>tacos</em>.<br>The reason behind this is unsure but suspicious.</h4>
+                </a>
+            </dt>
+        </section>
+        <?php include($_SERVER['DOCUMENT_ROOT']."/includes/mainbottom.html"); ?>
+        <a href="/" class="lastPage">Last Page</a>
+        <a href="/profile/index2.php" class="nextPage">Next Page</a>
+    </main>
+</body>
+
+</html>
