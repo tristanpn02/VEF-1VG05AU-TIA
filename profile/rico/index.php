@@ -11,7 +11,7 @@
         <section class="bullHead">
             <h1><a href="/profile/">POI</a> - The old Fashioned</h1>
         </section>
-        <section class="profPic"><a href="https://image.ibb.co/hn7Jp9/hipster_haircut_for_white_hair.jpg" target="_blank"><img src="https://image.ibb.co/hn7Jp9/hipster_haircut_for_white_hair.jpg"></a></section>
+        <section class="profPic"><a href="/resource/img/profile/hipster-haircut-for-white-hair.jpg" target="_blank"><img src="/resource/img/profile/hipster-haircut-for-white-hair.jpg"></a></section>
         <section class="profDesc">
             <h3>Description</h3>
             <h5>Rico is what we call the "mood breaker", no one has been able to acquire his contact information or residential location, but when you need him, just head to a bar and he'll be waiting for you... like he knew you needed him.<br><br>

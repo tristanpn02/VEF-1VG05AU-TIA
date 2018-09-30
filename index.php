@@ -17,7 +17,7 @@
                 <h1>BULLETIN</h1>
             </a>
         </section>
-        <img class="logo" src="https:/image.ibb.co/dW11sU/tori.png">
+        <img class="logo" src="/resource/img/tori.png">
         <section class="bottomRightX">
             <h3>25X1</h3>
             <div class="x50Box"></div>

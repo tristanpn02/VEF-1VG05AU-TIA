@@ -11,7 +11,7 @@
         <section class="bullHead">
             <h1><a href="/profile/">POI</a> - Tristan Andersen</h1>
         </section>
-        <section class="profPic"><a href="https:/image.ibb.co/ePLqK9/13873047_10202133812464443_213092002797039598_n.jpg" target="_blank"><img src="https:/image.ibb.co/ePLqK9/13873047_10202133812464443_213092002797039598_n.jpg"></a></section>
+        <section class="profPic"><a href="/resource/img/profile/tristan.jpg" target="_blank"><img src="/resource/img/profile/tristan.jpg"></a></section>
         <section class="profDesc">
             <h3>Description</h3>
             <h5>First brought into attention when it was reported by terminated Norwegian agent █████, that Mr. Andersen had stolen vital information from one of our data centers. It was later found out that Mr. Andersen only got a hold of a server <em>plugin</em> previously owned by █████.<br><br>The case was immedietly dropped and the agent was terminated.<br>

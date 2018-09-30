@@ -12,9 +12,9 @@
             <h1><a href="/profile/">POI</a> - The Snake</h1>
         </section>
         <section class="profPic">
-            <a href="https:/cdn.discordapp.com/attachments/475679552253853711/494572357164204042/imageedit_7_8763767361.png" target="_blank"><img src="https:/cdn.discordapp.com/attachments/475679552253853711/494572357164204042/imageedit_7_8763767361.png"></a>
-            <a href="https:/cdn.discordapp.com/attachments/475679552253853711/494572371383156746/imageedit_5_8729604471.jpg" target="_blank"><img src="https:/cdn.discordapp.com/attachments/475679552253853711/494572371383156746/imageedit_5_8729604471.jpg"></a>
-            <a href="https://cdn.discordapp.com/attachments/475679552253853711/494572385677213697/imageedit_3_8848120752.png"><img src="https:/cdn.discordapp.com/attachments/475679552253853711/494572385677213697/imageedit_3_8848120752.png">
+            <a href="/resource/img/profile/nikky1.png" target="_blank"><img src="/resource/img/profile/nikky1.png"></a>
+            <a href="/resource/img/profile/nikky2.jpg" target="_blank"><img src="/resource/img/profile/nikky2.jpg"></a>
+            <a href="/resource/img/profile/nikky3.png"><img src="/resource/img/profile/nikky3.png">
             </a>
         </section>
         <section class="profDesc">
