@@ -3,7 +3,7 @@
 
 <head>
     <title>TIB | DOC-FRONT-PAGE</title>
-    <?php include("/includes/head.html"); ?>
+    <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head.html"); ?>
 </head>
 
 <body>
@@ -32,6 +32,7 @@
         </section>
         <h5 class="bottomSerial">Approved for release under serial 645459919</h5>
         <img src="https:/image.ibb.co/hUi3NU/confidential_dna_results.png">
+        <a href="/recordings/" class="lastPage">Last Page</a>
         <a href="/profile" class="nextPage">Next Page</a>
     </main>
 </body>

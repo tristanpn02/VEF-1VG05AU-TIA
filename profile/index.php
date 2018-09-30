@@ -20,14 +20,14 @@
             </dt>
             <dt>
                 <a href="/profile/nikky/">
-                    <h3>Nikky {UNKOWN} - P4</h3>
-                    <h4>Web and server developer living in the North-Europe.<br>Recently accused of stealing a plugin from a community game server. </h4>
+                    <h3>Nikky, Nicholas - P4</h3>
+                    <h4>Snake? Snake! SNAAAAAAAAAKE!!</h4>
                 </a>
             </dt>
             <dt>
-                <a href="/profile/">
-                    <h3>SnoWDooM - P5</h3>
-                    <h4>A letter left by a "SnoWDooM" in the security break room read:<br><br><em>"You see me, you don't see me, you see me, you don't see me, you will not see me because I went in your fridge cracking a cold one."</em><br><br>Staff of the security group were questioned and all found innocent.</h4>
+                <a href="/profile/rico/">
+                    <h3>Rico Hernandez - P5</h3>
+                    <h4>A letter left by a "SnoWDooM" in the security break room read:<br><br><em>"You see me, you don't see me, you see me, you don't see me, you will not see me because I went in your fridge cracking a cold one."</em> and included a name of a bar.<br><br>Staff of the security group were questioned and all found innocent.</h4>
                 </a>
             </dt>
             <dt>
@@ -39,7 +39,7 @@
         </section>
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/mainbottom.html"); ?>
         <a href="/" class="lastPage">Last Page</a>
-        <a href="/profile/index2.php" class="nextPage">Next Page</a>
+        <a href="/profile/location/" class="nextPage">Next Page</a>
     </main>
 </body>
 

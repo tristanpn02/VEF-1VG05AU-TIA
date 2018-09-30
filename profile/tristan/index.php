@@ -47,6 +47,6 @@
             </dt>
         </section>
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/mainbottom.html"); ?>
-        <a href="/profile" class="lastPage">Last Page</a>
+        <a href="/profile/location/" class="lastPage">Last Page</a>
         <a href="/profile/nikky/" class="nextPage">Next Page</a>
     </main>

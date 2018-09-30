@@ -9,7 +9,7 @@
     <main>
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/maintop.html"); ?>
         <section class="bullHead">
-            <h1><a href="/profile/">POI</a> - Nikky Nicholas</h1>
+            <h1><a href="/profile/">POI</a> - The Snake</h1>
         </section>
         <section class="profPic">
             <a href="https:/cdn.discordapp.com/attachments/475679552253853711/494572357164204042/imageedit_7_8763767361.png" target="_blank"><img src="https:/cdn.discordapp.com/attachments/475679552253853711/494572357164204042/imageedit_7_8763767361.png"></a>
@@ -54,5 +54,5 @@
         </section>
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/mainbottom.html"); ?>
         <a href="/profile/tristan/" class="lastPage">Last Page</a>
-        <a href="/profile/" class="nextPage">Next Page</a>
+        <a href="/profile/rico/" class="nextPage">Next Page</a>
     </main>

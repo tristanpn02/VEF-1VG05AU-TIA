@@ -1,9 +1,16 @@
+/* Whole Page */
+
 body {
     font-family: 'Spectral', serif;
     text-align: center;
     width: 50em;
     margin: auto;
     background-color: dimgray;
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
 }
 
 main {
@@ -15,10 +22,6 @@ main {
     padding: 10px;
     border: solid 1.5em;
     border-style: double;
-}
-
-div {
-    padding: 1em;
 }
 
 /* Scrollbar */
@@ -39,22 +42,64 @@ div {
     background: #777;
 }
 
+/* Links */
 
-.topSerial {
-    grid-column-start: 2;
-    grid-column-end: 5;
-    grid-row-start: 1;
-    grid-row-end: 2;
+a,
+button {
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+
+    transition: .5s;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    border: none;
 }
 
-#x25 {
+a:hover,
+button:hover {
+    color: darkgray;
+    cursor: pointer;
+}
+
+.mainText a {
+    color: black;
+    background-color: none;
+}
+
+.mainText a:hover {
+    color: darkgray;
+}
+
+.controls a {
+    float: left;
+    padding-right: 1em;
+}
+
+/* Tags and Id's */
+
+div {
+    padding: 1em;
+}
+
+.overlVid {
+    margin-left: -3em;
+    height: 380;
+    width: 650;
+}
+
+/* Top and Bottom */
+
+.x25 {
     grid-column-start: 1;
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#x25Box {
+.x25Box {
     border: solid 0.1em;
     grid-column-start: 1;
     grid-column-end: 3;
@@ -62,19 +107,26 @@ div {
     grid-row-end: 5;
 }
 
-#x1 {
+.x1 {
     grid-column-start: 5;
     grid-column-end: 6;
     grid-row-start: 2;
     grid-row-end: 3;
 }
 
-#topRightX {
+.topRightX {
     text-align: left;
     line-height: 0.1em;
     grid-column-start: 4;
     grid-column-end: 6;
     grid-row-start: 3;
+}
+
+.topSerial {
+    grid-column-start: 2;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
 }
 
 .bottomRightX {
@@ -87,52 +139,6 @@ div {
 
 .x50Box {
     border: solid 0.1em;
-}
-
-.bullTitle {
-    color: white;
-    font-size: 2em;
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 5;
-    grid-row-end: 8;
-}
-
-a {
-    -o-transition: .5s;
-    -ms-transition: .5s;
-    -moz-transition: .5s;
-    -webkit-transition: .5s;
-    /* ...and now for the proper property */
-    transition: .5s;
-    color: black;
-    text-decoration: none;
-}
-
-a:hover {
-    color: darkgray;
-}
-
-.bullTitle a {
-    color: white;
-    text-decoration: none;
-}
-
-.bullTitle a:hover {
-    color: darkgray;
-}
-
-.bullTitle h1 {
-    background-color: black;
-}
-
-.logo {
-    margin: auto;
-    grid-column-start: 1;
-    grid-column-end: 6;
-    grid-row-start: 8;
-    grid-row-end: 9;
-    width: 11em;
 }
 
 .bottomGroup {
@@ -157,25 +163,35 @@ a:hover {
     grid-row-end: 14;
 }
 
-.nextPage {
-    text-align: center;
-    grid-column-start: 5;
-    grid-row-start: 12;
-    grid-row-end: 13;
-}
-
-.lastPage {
-    text-align: center;
-    grid-column-start: 1;
-    grid-row-start: 12;
-    grid-row-end: 13;
-}
-
 .bullHead {
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 2;
     grid-row-end: 3;
+}
+
+/* Main Text */
+
+.bullTitle {
+    color: white;
+    font-size: 2em;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+
+.bullTitle h1 {
+    background-color: black;
+}
+
+.logo {
+    margin: auto;
+    grid-column-start: 1;
+    grid-column-end: 6;
+    grid-row-start: 8;
+    grid-row-end: 9;
+    width: 11em;
 }
 
 .mainText {
@@ -189,14 +205,13 @@ a:hover {
     text-decoration: underline;
 }
 
-.profDesc {
-    padding: 1em;
-    text-align: left;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 6;
+.overlContent {
+    position: fixed;
+    top: 30px;
+    display: none;
 }
+
+/* Profile */
 
 .profPic {
     padding: 1em;
@@ -210,6 +225,15 @@ a:hover {
     width: 100%;
 }
 
+.profDesc {
+    padding: 1em;
+    text-align: left;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
 .profInfo {
     line-height: 1em;
     border: solid 0.1em;
@@ -220,4 +244,33 @@ a:hover {
     grid-row-start: 5;
 }
 
-.profInfo h4 {}
+/* Buttons */
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.overlClose {
+    color: black;
+    float: right;
+    font-size: 3em;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.nextPage {
+    text-align: center;
+    grid-column-start: 5;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
+
+.lastPage {
+    text-align: center;
+    grid-column-start: 1;
+    grid-row-start: 12;
+    grid-row-end: 13;
+}
