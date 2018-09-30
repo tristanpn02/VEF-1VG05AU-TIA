@@ -22,6 +22,7 @@ main {
     padding: 10px;
     border: solid 1.5em;
     border-style: double;
+    height: 70em;
 }
 
 /* Scrollbar */
@@ -56,6 +57,7 @@ button {
     text-decoration: none;
     background-color: black;
     border: none;
+    height: 1.3em;
 }
 
 a:hover,
@@ -82,12 +84,6 @@ button:hover {
 
 div {
     padding: 1em;
-}
-
-.overlVid {
-    margin-left: -3em;
-    height: 380;
-    width: 650;
 }
 
 /* Top and Bottom */
@@ -273,4 +269,12 @@ div {
     grid-column-start: 1;
     grid-row-start: 12;
     grid-row-end: 13;
+}
+
+/* Various classes */
+
+.overlVid {
+    margin-left: -3em;
+    height: 380;
+    width: 650;
 }

@@ -1,17 +1,23 @@
 <html>
 
 <head>
+    <!-- Page Title -->
     <title>TIB | POI PROFILES</title>
+    <!-- Include html block using php -->
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head.html"); ?>
 </head>
 
 <body>
     <main>
+        <!-- Include html block using php -->
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/maintop.html"); ?>
+        <!-- Head title -->
         <section class="bullHead">
             <h1><a href="/profile/">POI</a> - The old Fashioned</h1>
         </section>
+        <!-- Profile picture -->
         <section class="profPic"><a href="/resource/img/profile/hipster-haircut-for-white-hair.jpg" target="_blank"><img src="/resource/img/profile/hipster-haircut-for-white-hair.jpg"></a></section>
+        <!-- Profile description -->
         <section class="profDesc">
             <h3>Description</h3>
             <h5>Rico is what we call the "mood breaker", no one has been able to acquire his contact information or residential location, but when you need him, just head to a bar and he'll be waiting for you... like he knew you needed him.<br><br>
@@ -20,6 +26,7 @@
                 Why Old Fashioned? you might ask... You should not judge him based on the way he looks... but by his way of doing the job.
             </h5>
         </section>
+        <!-- Profile information -->
         <section class="profInfo">
             <h3>Details</h3>
             <dh>
@@ -47,7 +54,9 @@
                 <p><strong><em>Gray</em></strong></p>
             </dt>
         </section>
+        <!-- Include html block using php -->
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/mainbottom.html"); ?>
+        <!-- Navigation buttons -->
         <a href="/profile/nikky/" class="lastPage">Last Page</a>
         <a href="/recordings/" class="nextPage">Next Page</a>
     </main>

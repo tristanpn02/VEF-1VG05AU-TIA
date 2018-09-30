@@ -1,17 +1,23 @@
 <html>
 
 <head>
+    <!-- Page Title -->
     <title>TIB | POI PROFILES</title>
+    <!-- Include html block using php -->
     <?php include($_SERVER['DOCUMENT_ROOT']."/includes/head.html"); ?>
 </head>
 
 <body>
     <main>
+        <!-- Include html block using php -->
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/maintop.html"); ?>
         <section class="bullHead">
+            <!-- Head title -->
             <h1>POI PROFILES (1/2)</h1>
         </section>
+        <!-- Main Text area -->
         <section class="mainText">
+            <!-- Profiles -->
             <dt>
                 <a href="/profile/tristan/">
                     <h3>Tristan Andersen - P3</h3>
@@ -37,7 +43,9 @@
                 </a>
             </dt>
         </section>
+        <!-- Include html block using php -->
         <?php include($_SERVER['DOCUMENT_ROOT']."/includes/mainbottom.html"); ?>
+        <!-- Navigation buttons -->
         <a href="/" class="lastPage">Last Page</a>
         <a href="/profile/location/" class="nextPage">Next Page</a>
     </main>
