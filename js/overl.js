@@ -7,10 +7,5 @@ function overlClose() {
 }
 
 function overlOpen() {
-    if (overl.style.display === "none") {
-        overl.style.display = "block";
-    } else {
-        overl.style.display = "none";
-        frame.src = "http://";
-    }
+    overl.style.display = "block";
 }
