@@ -49,9 +49,7 @@
         <script>
             function overlVid() {
                 var frame = document.getElementsByClassName("overlVid")[0];
-                if (overl.style.display === "none") {
                     frame.src = "https://www.youtube.com/embed/JUp9pCtn2BY?rel=0&amp;showinfo=0&amp;start=557";
-                }
             }
 
         </script>
